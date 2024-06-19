@@ -11,4 +11,6 @@ grafana        3000.
 vim /etc/prometheus/prometheus.yml
 ```
 2. Grafana requried setup of Promotheus
+   ```
    system>promotheus>fill feild as mention in images>save it
+```
