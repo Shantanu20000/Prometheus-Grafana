@@ -24,5 +24,6 @@ vim /etc/prometheus/prometheus.yml
 ```
 2. Grafana requried setup of Promotheus
 ```
-   system>promotheus>fill feild as mention in images>save it
+   System > Promotheus > Fill feild as mention in images > Save it
 ```
+![Screenshot (844)](https://github.com/Shantanu20000/Prometheus-Grafana/assets/163661534/49474573-ec5c-49f7-90c3-e8743f77c912)
