@@ -1,4 +1,4 @@
-# prometheus-monitoring
+# Prometheus with Grafana Monitoring
 Service        Port no
 prometheus     9090,
 node-exporter  9100,
@@ -21,6 +21,21 @@ cd Prometeus-Grafana
 1. Nodes Detail Stored in bellow file
 ```
 vim /etc/prometheus/prometheus.yml
+```
+LIke that
+```
+global:
+  scrape_interval: 15s
+  external_labels:
+    monitor: 'prometheus'
+
+scrape_configs:
+  - job_name: 'node'
+    ec2_sd_configs:
+      - region: us-east-2
+        access_key: yourkey
+        secret_key: yourkey
+        port: 9100
 ```
 2. Grafana requried setup of Promotheus
 ```
